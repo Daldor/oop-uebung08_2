@@ -58,6 +58,8 @@ public interface TweetSammlung {
 	 * Erstellt eine neue Implementierung von TweetSammlung
 	 */
 	static TweetSammlung create() {
-		throw new UnsupportedOperationException();
+
+		return new TweetSammlungImpl();
+		//throw new UnsupportedOperationException();
 	}
 }
